@@ -1,0 +1,40 @@
+
+/**/
+.page-header{   
+   
+    @include color-scheme($scheme-bg ...);
+    overflow-x: hidden;
+   
+}
+
+header{
+    .rosita{
+        width: 100%;
+    }
+}
+/**/
+.whity{
+    margin-top: 25%;
+}
+/**/
+.efecti{
+     @include color-scheme($scheme-serenytea ...);
+}
+
+
+/*index.html modificaciones en su body*/
+.curso{
+    margin: 3%;
+    padding: 3%;
+}
+
+.cartas{
+    margin: 1%;
+  
+}
+
+.class2350{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  
+}

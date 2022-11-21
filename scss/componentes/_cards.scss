@@ -1,0 +1,15 @@
+/*carrusel y cartas del index.html*/
+.carousel{
+    margin-bottom: 2%;
+}
+
+.cartas{
+    @include color-scheme($scheme-bg ...);
+    align-items: stretch;
+    height: 100%;
+    }.col-sm{
+    border: 1px solid black;
+}
+
+
+

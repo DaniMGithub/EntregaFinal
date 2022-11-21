@@ -1,0 +1,23 @@
+nav{
+    @include color-scheme($scheme-rosabb...) ;
+    
+       
+        li{
+        @include color-scheme($scheme-rosabb ...);
+        text-decoration-color: $color-loquis;
+        border-radius: 5px;
+
+        a{
+            @include color-scheme($scheme-rosabb ...);
+        text-decoration-color: $color-loquis;
+        border-radius: 5px;
+
+        }:hover{
+            @include color-scheme($scheme-pastel ...);
+        }
+       
+    }
+}
+    
+
+

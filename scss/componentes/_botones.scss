@@ -22,12 +22,14 @@
     @include color-scheme($scheme-suave...);
     overflow: hidden;
     flex-wrap: wrap;
+    font-weight: bolder;
     
 }
 .btn-5:hover{
         @include color-scheme($scheme-bg ...);
         overflow: hidden;
         flex-wrap: wrap;
+        font-weight: bolder;
        
     }
 

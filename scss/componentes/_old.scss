@@ -1667,12 +1667,16 @@ background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
   line-height: 42px;
   padding: 0;
   border: none;
+  font-weight: bolder;
+       
 }
 .btn-8 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
+  font-weight: bolder;
+       
 }
 .btn-8:before,
 .btn-8:after {
@@ -1681,19 +1685,20 @@ background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
   right: 0;
   bottom: 0;
   background: #c797eb;
-  /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+  font-weight: bolder;
   transition: all 0.3s ease;
 }
 .btn-8:before{
    height: 0%;
    width: 2px;
+   font-weight: bolder;
+       
 }
 .btn-8:after {
   width: 0%;
   height: 2px;
+  font-weight: bolder;
+       
 }
 .btn-8:hover:before {
   height: 100%;

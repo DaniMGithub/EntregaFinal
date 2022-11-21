@@ -101,11 +101,6 @@ header .rosita {
 }
 
 /**/
-.whity {
-  margin-top: 25%;
-}
-
-/**/
 .efecti {
   background-image: linear-gradient(to top left, #74d3ae, #678d58, #a6c48a, #f6e7cb, #dd9787);
   color: black;
@@ -126,24 +121,43 @@ header .rosita {
   margin-bottom: 2%;
 }
 
+.resaltado {
+  color: #000000;
+  background-color: #ffc5c7;
+}
+
+/**/
+.whity {
+  margin-top: 25%;
+}
+
 nav {
   background-image: linear-gradient(to top left, #ff0a54, #ff477e, #ff5c8a, #ff7096, #ff85a1, #ff99ac, #fbb1bd, #f9bec7, #f7cad0, #fae0e4);
   color: white;
+  color: black;
 }
-nav li {
-  background-image: linear-gradient(to top left, #ff0a54, #ff477e, #ff5c8a, #ff7096, #ff85a1, #ff99ac, #fbb1bd, #f9bec7, #f7cad0, #fae0e4);
-  color: white;
+nav ul {
+  background-color: transparent;
+  color: black;
+}
+nav ul li {
+  background-color: transparent;
   text-decoration-color: #ff758f;
   border-radius: 5px;
+  color: black;
 }
-nav li a {
-  background-image: linear-gradient(to top left, #ff0a54, #ff477e, #ff5c8a, #ff7096, #ff85a1, #ff99ac, #fbb1bd, #f9bec7, #f7cad0, #fae0e4);
-  color: white;
+nav ul li a {
   text-decoration-color: #ff758f;
   border-radius: 5px;
+  color: black;
 }
-nav li :hover {
+nav ul li :hover {
   background-image: linear-gradient(to top left, #cdb4db, #ffc8dd, #ffafcc, #bde0fe, #a2d2ff);
+  color: black;
+  color: black;
+}
+
+.nav-link {
   color: black;
 }
 
@@ -185,7 +199,7 @@ body {
 }
 
 .minav {
-  background-color: lightskyblue;
+  color: black;
 }
 
 .pilly {
@@ -1613,6 +1627,7 @@ Grafico que no use pero lo guardo aca por las dudas
   line-height: 42px;
   padding: 0;
   border: none;
+  font-weight: bold;
 }
 
 .btn-11 span {
@@ -1628,7 +1643,7 @@ Grafico que no use pero lo guardo aca por las dudas
   content: "";
   right: 0;
   top: 0;
-  background: rgb(2, 126, 251);
+  background: white;
   transition: all 0.3s ease;
 }
 
@@ -1656,7 +1671,7 @@ Grafico que no use pero lo guardo aca por las dudas
 }
 
 .btn-11 span:hover {
-  color: rgb(2, 126, 251);
+  color: white;
 }
 
 .btn-11 span:before,
@@ -1665,7 +1680,7 @@ Grafico que no use pero lo guardo aca por las dudas
   content: "";
   left: 0;
   bottom: 0;
-  background: rgb(2, 126, 251);
+  background: white;
   transition: all 0.3s ease;
 }
 
@@ -1993,10 +2008,14 @@ Grafico que no use pero lo guardo aca por las dudas
 	.ocultar{ display:none;
 }} */
 .btn-11 {
-  background-image: linear-gradient(to top left, #4f000b, #720026, #ce4257, #ff7f51, #ff9b54);
-  color: black;
+  background-image: linear-gradient(to top left, #ff0a54, #ff477e, #ff5c8a, #ff7096, #ff85a1, #ff99ac, #fbb1bd, #f9bec7, #f7cad0, #fae0e4);
+  color: white;
   overflow: hidden;
   flex-wrap: wrap;
+  border-radius: 2%;
+}
+.btn-11hover {
+  border-color: black, #f9dbbd, #ffa5ab, #da627d, #a53860, #450920;
 }
 
 .btn-3:hover {

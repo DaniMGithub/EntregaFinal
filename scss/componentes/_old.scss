@@ -43,7 +43,7 @@ body{
 }
 
 .minav{
-    background-color: lightskyblue;
+    color: black;
 }
 
 .pilly{
@@ -1403,6 +1403,7 @@ Grafico que no use pero lo guardo aca por las dudas
       line-height: 42px;
       padding: 0;
       border: none;
+      font-weight: bold;
       
     }
     .btn-11 span {
@@ -1417,7 +1418,7 @@ Grafico que no use pero lo guardo aca por las dudas
       content: "";
       right: 0;
       top: 0;
-       background: rgba(2,126,251,1);
+       background:  white;
       transition: all 0.3s ease;
     }
     .btn-11:before {
@@ -1439,7 +1440,7 @@ Grafico que no use pero lo guardo aca por las dudas
       width: 100%;
     }
     .btn-11 span:hover{
-       color: rgba(2,126,251,1);
+       color:  white;
     }
     .btn-11 span:before,
     .btn-11 span:after {
@@ -1447,7 +1448,7 @@ Grafico que no use pero lo guardo aca por las dudas
       content: "";
       left: 0;
       bottom: 0;
-       background: rgba(2,126,251,1);
+       background: white;
       transition: all 0.3s ease;
     }
     .btn-11 span:before {

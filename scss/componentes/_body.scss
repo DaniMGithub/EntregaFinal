@@ -9,13 +9,10 @@
 
 header{
     .rosita{
-        width: 100%;
+        width: 100%;       
     }
 }
-/**/
-.whity{
-    margin-top: 25%;
-}
+
 /**/
 .efecti{
      @include color-scheme($scheme-serenytea ...);

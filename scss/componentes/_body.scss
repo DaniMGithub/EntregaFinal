@@ -1,5 +1,8 @@
 
 /**/
+body{
+    overflow-x: hidden;
+}
 .page-header{   
    
     @include color-scheme($scheme-bg ...);
@@ -35,3 +38,5 @@ header{
     margin-bottom: 2%;
   
 }
+
+

@@ -218,6 +218,7 @@ p {
   text-align: center;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+  overflow-x: hidden;
   -webkit-transition: all 150ms ease 0s;
   transition: all 150ms ease 0s;
 }
@@ -314,6 +315,7 @@ p {
   background: #fefefe;
   top: -10px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .content div {
@@ -322,6 +324,7 @@ p {
   width: 0;
   height: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
   top: 0;
   left: 0;
   z-index: 1;
@@ -1754,20 +1757,21 @@ background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
 	.ocultar{ display:none;
 }} */
 
+/*guias.html modificaciones en su body*/
 .acordeon{
-  background-color: coral;
+  @include color-scheme($scheme-tierra...) ;;
   border-color: coral;
   color: black;}
 
   .acordeon::before {
-    background-color: coral;
+    @include color-scheme($scheme-tierra...) ;
   border-color: coral;
   color: black;}
   
   
   .acordeon::after {
-    background-color: coral;
+    @include color-scheme($scheme-zul...) ;
   border-color: coral;
   color: black;}
   
-  
+ 

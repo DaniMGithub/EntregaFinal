@@ -54,6 +54,36 @@
 
 /*fin mixin esquemas de colores*/
 /*mapa de media queris asociados con nombres para breakpoints mobile y tablet  este mapa se usa en MIXIN para cambiar los colores de fondo en guias.html*/
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 1.15em;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 603px) {
+  p {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 604px) and (max-width: 734px) {
+  p {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 735px) and (max-width: 991px) {
+  p {
+    font-size: 1.15rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
 /*carrusel y cartas del index.html*/
 .carousel {
   margin-bottom: 2%;
@@ -90,6 +120,10 @@
 }
 
 /**/
+body {
+  overflow-x: hidden;
+}
+
 .page-header {
   background-image: linear-gradient(to top left, #590d22, #800f2f, #a4133c, #c9184a, #ff4d6d, #ff758f, #ff8fa3, #ffb3c1, #ffccd5, #fff0f3);
   color: black;
@@ -377,6 +411,7 @@ body {
   text-align: center;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+  overflow-x: hidden;
   -webkit-transition: all 150ms ease 0s;
   transition: all 150ms ease 0s;
 }
@@ -475,6 +510,7 @@ body {
   background: #fefefe;
   top: -10px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .content div {
@@ -483,6 +519,7 @@ body {
   width: 0;
   height: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
   top: 0;
   left: 0;
   z-index: 1;
@@ -2011,20 +2048,24 @@ Grafico que no use pero lo guardo aca por las dudas
  @media screen and (max width: 700px){
 	.ocultar{ display:none;
 }} */
+/*guias.html modificaciones en su body*/
 .acordeon {
-  background-color: coral;
+  background-image: linear-gradient(to top left, #22577a, #38a3a5, #57cc99, #80ed99, #c7f9cc);
+  color: white;
   border-color: coral;
   color: black;
 }
 
 .acordeon::before {
-  background-color: coral;
+  background-image: linear-gradient(to top left, #22577a, #38a3a5, #57cc99, #80ed99, #c7f9cc);
+  color: white;
   border-color: coral;
   color: black;
 }
 
 .acordeon::after {
-  background-color: coral;
+  background-image: linear-gradient(to top left, #012a4a, #013a63, #01497c, #014f86, #2a6f97, #2c7da0, #468faf, #61a5c2, #89c2d9, #a9d6e5);
+  color: black;
   border-color: coral;
   color: black;
 }
